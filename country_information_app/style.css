@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.country-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+.time{
+    max-width: 450px;
+}
+.country-info {
+    margin-top: 20px;
+}
+
+.search-wrapper{
+    width:350px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.search-wrapper input{
+    width:240px;
+    padding:7px;
+    border:none;
+    outline:none;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding-left:10px;
+}
+
+.search-wrapper button{
+    background-color: rgb(16, 165, 206);
+    border:none;
+    color:white;
+    padding:10px 15px;
+    border-radius:30px;
+    margin-left:6px;
+}
+
+#information{
+    margin-top:30px;
+}
+.flag-img{
+    display:block;
+    width:150px;
+    margin:auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+h2{
+    text-align: center;
+    font-size:22px;
+    padding-top:10px;
+    margin-bottom:20px;
+}
+
+.data-wrapper{
+    display:flex;
+    margin-left:30px;
+    margin-bottom:10px;
+}
+
+.data-wrapper h4{
+    font-size: 15px;
+}
+
+.data-wrapper span{
+    font-size: 14px;
+    color:rgb(19, 16, 16);
+    padding-left: 10px;;
+}

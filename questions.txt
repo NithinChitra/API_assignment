@@ -1,0 +1,354 @@
+Project 1: Weather Forecast
+Problem Statement:
+You are tasked with creating a simple weather forecast application. The HTML and CSS for the application have been provided to you, and your job is to write the JavaScript code to fetch weather data from an open weather API and display it on the webpage. 
+
+HTML File (index.html):
+```html
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Weather Forecast</title>
+
+</head>
+
+<body>
+
+    <div class="weather-container">
+
+        <h1>Weather Forecast</h1>
+
+        <div class="weather-data">
+
+            <p>Loading...</p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+```
+
+ 
+
+CSS File (styles.css):
+```css
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #f0f0f0;
+
+}
+
+ 
+
+.weather-container {
+
+    background-color: #fff;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+ 
+
+.weather-data {
+
+    margin-top: 20px;
+
+}
+
+```
+
+ 
+
+JavaScript File (script.js):
+```js
+
+// TODO: Write JavaScript code here to fetch weather data from the API and update the HTML accordingly
+
+```
+
+ 
+
+API Link: You can use the OpenWeatherMap API (https://openweathermap.org/api) to get the weather data.
+
+ 
+
+---
+
+ 
+
+Project 2: Random Quote Generator
+ 
+
+Problem Statement:
+You have been assigned the task of building a random quote generator. The HTML and CSS have been provided, and you need to write the JavaScript code to fetch a random quote from a quotes API and display it on the webpage. 
+
+HTML File (index.html):
+```html
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Random Quote Generator</title>
+
+</head>
+
+<body>
+
+    <div class="quote-container">
+
+        <h1>Random Quote Generator</h1>
+
+        <div class="quote">
+
+            <p>Loading...</p>
+
+        </div>
+
+        <button class="btn" id="new-quote-btn">New Quote</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+```
+
+ 
+
+CSS File (styles.css):
+```css
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #f0f0f0;
+
+}
+
+ 
+
+.quote-container {
+
+    background-color: #fff;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+ 
+
+.quote {
+
+    margin-top: 20px;
+
+}
+
+ 
+
+.btn {
+
+    margin-top: 20px;
+
+    padding: 10px 20px;
+
+    border: none;
+
+    background-color: #007BFF;
+
+    color: #fff;
+
+    border-radius: 4px;
+
+    cursor: pointer;
+
+}
+
+```
+
+ 
+
+JavaScript File (script.js):
+```js
+
+// TODO: Write JavaScript code here to fetch a random quote from the API and update the HTML accordingly
+
+```
+
+ 
+
+API Link: You can use the Quotes Free API (https://type.fit/api/quotes) to get random quotes.
+
+ 
+
+---
+
+Project 3: Country Information App 
+Problem Statement:
+You are required to build a simple country information app. The HTML and CSS have been provided, and your task is to write the JavaScript code to fetch country data from a countries API and display it on the webpage. 
+
+HTML File (index.html):
+```html
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Country Information App</title>
+
+</head>
+
+<body>
+
+    <div class="country-container">
+
+        <h1>Country Information App</h1>
+
+        <div class="country-info">
+
+            <p>Loading...</p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+```
+
+ 
+
+CSS File (styles.css):
+```css
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 100vh;
+
+    background-color: #f0f0f0;
+
+}
+
+ 
+
+.country-container {
+
+    background-color: #fff;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+ 
+
+.country-info {
+
+    margin-top: 20px;
+
+}
+
+```
+
+ 
+
+JavaScript File (script.js):
+```js
+
+// TODO: Write JavaScript code here to fetch country data from the API and update the HTML accordingly
+
+```
+
+ 
+
+API Link: You can use the Rest Countries API (https://restcountries.com) to get country information. 
